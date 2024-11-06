@@ -1,0 +1,163 @@
+.web-development-page {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #bbb;
+}
+
+.service-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background: radial-gradient(circle at bottom, rgb(0, 0, 53) 0, black 100%);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.service-section:hover {
+    transform: scale(1);
+}
+
+.text-content {
+    max-width: 400px;
+    color: #e0e0e0;
+}
+
+h2 {
+    color: #F0C330;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.service-gif {
+    width: 300px;
+    height: 200px;
+    border: 4px solid #F0C330;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.service-gif:hover {
+    transform: scale(1.05);
+}
+
+.contact-button-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 12px 24px;
+    color: #1d1d1d;
+    background-color: #F0C330;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #d9b32b;
+}
+
+@media (max-width: 768px) {
+    .service-section {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .service-gif {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .intro-text {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 600px) {
+    .web-development-page {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    .intro-text {
+        font-size: 1em;
+        margin-bottom: 30px;
+    }
+
+    .service-section {
+        margin: 0 5%;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .service-gif {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .intro-text {
+        font-size: 0.9em;
+    }
+
+    .contact-button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+}

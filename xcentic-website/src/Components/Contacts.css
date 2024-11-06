@@ -1,0 +1,159 @@
+.contact-section {
+    background: radial-gradient(circle at bottom, rgb(36, 36, 94) 0, black 80%);
+    padding: 50px 20px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin: 5% auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contact-header h1 {
+    font-size: 2em;
+    color: #F0C330;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: #cccccc;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a3a50;
+    color: #ffffff;
+    font-size: 1em;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s ease;
+    
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #a1a1a1;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background-color: #494966;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-submit {
+    background-color: #F0C330;
+    color: #2e2e3a;
+    padding: 12px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contact-submit:hover {
+    background-color: #D9A700;
+    color: #ffffff;
+}
+
+.contact-submit:focus {
+    outline: none;
+}
+
+/* Responsive Design */
+
+/* For Tablets (768px and below) */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 40px 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contact-header h1 {
+        font-size: 1.8em;
+    }
+
+    .contact-header p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 70%; /* Increase width for smaller screens */
+        padding: 12px;
+        font-size: 0.9em;
+    }
+
+    .contact-submit {
+        padding: 10px 25px;
+        font-size: 0.9em;
+    }
+}
+
+/* For Mobile Screens (600px and below) */
+@media (max-width: 600px) {
+    .contact-section {
+        padding: 30px 10px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .contact-header h1 {
+        font-size: 1.6em;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 90%; /* Full-width for mobile screens */
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    .contact-submit {
+        padding: 8px 20px;
+        font-size: 0.8em;
+    }
+}
+
+/* For Extra Small Screens (400px and below) */
+@media (max-width: 400px) {
+    .contact-header h1 {
+        font-size: 1.4em;
+    }
+
+    .contact-header p {
+        font-size: 0.9em;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%; /* Maximize width for smallest screens */
+        padding: 8px;
+        font-size: 0.8em;
+    }
+
+    .contact-submit {
+        font-size: 0.75em;
+        padding: 8px 18px;
+    }
+}

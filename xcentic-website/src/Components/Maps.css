@@ -1,0 +1,19 @@
+.office-location {
+    text-align: center;
+    padding: 20px;
+    background: radial-gradient(circle at bottom, rgb(17, 62, 0) 0, black 100%);
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.map-container {
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.office-location h1{
+    color: #F0C330;
+}

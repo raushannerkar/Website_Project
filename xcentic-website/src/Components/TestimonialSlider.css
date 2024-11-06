@@ -1,0 +1,134 @@
+/* TestimonialSlider.css */
+
+.testimonial-slider {
+    padding: 50px;
+    background: radial-gradient(circle at bottom, rgb(12, 44, 0) 0, black 100%);
+    color: #ffffff;
+    text-align: center;
+    margin: 4% 10%;
+    border-radius: 10%;
+    border: 1px solid #F0C330;
+}
+
+.testimonial-slider h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #F0C330;
+}
+
+.testimonial-card {
+    background-color: radial-gradient(circle at bottom, rgb(12, 44, 0) 0, black 100%);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.client-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: block;
+}
+
+.testimonial-details h3 {
+    font-size: 1.2rem;
+    color: #F0C330;
+    margin-bottom: 5px;
+}
+
+.client-number {
+    font-size: 0.9rem;
+    color: #d1d1d1;
+    margin-bottom: 10px;
+}
+
+.client-feedback {
+    font-size: 1rem;
+    font-style: italic;
+    color: #ffffff;
+}
+
+/* Media Queries */
+
+/* Medium Screens (1024px and below) */
+@media (max-width: 1024px) {
+    .testimonial-slider {
+        padding: 40px 20px;
+        margin: 4% 5%;
+    }
+
+    .testimonial-slider h2 {
+        font-size: 1.8rem;
+    }
+
+    .testimonial-card {
+        padding: 15px;
+    }
+
+    .client-feedback {
+        font-size: 0.95rem;
+    }
+}
+
+/* Small Tablets (800px and below) */
+@media (max-width: 800px) {
+    .testimonial-slider {
+        padding: 30px 15px;
+        margin: 5% 3%;
+    }
+
+    .testimonial-slider h2 {
+        font-size: 1.6rem;
+    }
+
+    .testimonial-card {
+        padding: 10px;
+        max-width: 250px;
+    }
+
+    .client-photo {
+        width: 35px;
+        height: 35px;
+    }
+
+    .testimonial-details h3 {
+        font-size: 1.1rem;
+    }
+
+    .client-feedback {
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile Screens (600px and below) */
+@media (max-width: 600px) {
+    .testimonial-slider {
+        padding: 20px 10px;
+        margin: 5% 2%;
+    }
+
+    .testimonial-slider h2 {
+        font-size: 1.4rem;
+    }
+
+    .testimonial-card {
+        padding: 10px;
+        max-width: 200px;
+    }
+
+    .client-photo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .testimonial-details h3 {
+        font-size: 1rem;
+    }
+
+    .client-feedback {
+        font-size: 0.85rem;
+    }
+}
