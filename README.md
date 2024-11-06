@@ -1,1 +1,1 @@
-# ReactJS_Project
+# Internship Project
