@@ -1,1 +1,2 @@
-# Internship Project
+# Internship Project - Futuristic React App
+
